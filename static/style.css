@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffebee;
+    font-family: Arial, sans-serif;
+}
+.card {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+h1 {
+    color: #e91e63;
+    margin-bottom: 30px;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-sim {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn-nao {
+    background: #9e9e9e;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.imagem-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.imagem-overlay.mostrar {
+    opacity: 1;
+}

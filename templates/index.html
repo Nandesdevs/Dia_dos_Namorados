@@ -4,77 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dia dos Namorados</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: #ffebee;
-            font-family: Arial, sans-serif;
-        }
-        .card {
-            text-align: center;
-            background: white;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
-        img {
-            max-width: 100%;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            color: #e91e63;
-            margin-bottom: 30px;
-        }
-        .buttons {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            align-items: center;
-        }
-        .btn-sim {
-            background: #e91e63;
-            color: white;
-            border: none;
-            padding: 10px 30px;
-            font-size: 18px;
-            border-radius: 50px;
-            cursor: pointer;
-        }
-        .btn-nao {
-            background: #9e9e9e;
-            color: white;
-            border: none;
-            padding: 10px 30px;
-            font-size: 18px;
-            border-radius: 50px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="card">
         <img src="{{ url_for('static', filename='imagens/Garfield_and_Snoop.png') }}" alt="Garfield and Snoop">
-        <h1>Will you be my valentine?</h1>
+        <h1>Quer ir dar um rolezinho de namorados?</h1>
         <div class="buttons">
-            <button class="btn-sim" id="sim">Yes</button>
-            <button class="btn-nao" id="nao">No</button>
+            <button class="btn-sim" id="sim">SIM</button>
+            <button class="btn-nao" id="nao">Não</button>
+        </div>
+        <div id="imagens-extra">
+            <img id="img1" src="{{ url_for('static', filename='imagens/GarfieldSnoopSus.jpg') }}" class="imagem-overlay">
+            <img id="img2" src="{{ url_for('static', filename='imagens/GarfieldXingando.jpg') }}" class="imagem-overlay">
         </div>
     </div>
+
+    <audio id="somChoro" src="{{ url_for('static', filename='som/Fahhh.mp3') }}" preload="auto"></audio>
 
     <script>
         const sim = document.getElementById('sim');
         const nao = document.getElementById('nao');
         let tamanhoSim = 1;
+        let clique = 0;
+
+        const mensagens = ['Não???', 'Certeza nath?', 'Pensa melhor 🖤', ''];
+
+        // IMAGENS E SOM - PARTE ADICIONADA
+        const img1 = document.getElementById('img1');
+        const img2 = document.getElementById('img2');
+        const imagens = [img1, img2];
+        const som = document.getElementById('somChoro');
+        // Adicione isso no começo do arquivo, depois de declarar as variáveis
+        document.body.addEventListener('click', function() {
+            // Isso ativa o áudio após o primeiro clique
+            if (som) {
+                som.play().then(() => {
+                    som.pause();
+                    som.currentTime = 0;
+                }).catch(() => {});
+            }
+        }, { once: true });
 
         nao.addEventListener('click', () => {
-            tamanhoSim += 0.2;
+            tamanhoSim += 1;
             sim.style.transform = `scale(${tamanhoSim})`;
-            sim.style.transition = 'transform 0.2s';
-            nao.textContent = 'Não???';
+            sim.style.transition = 'transform 1s';
+            
+            clique++;
+            if (clique < mensagens.length) {
+                nao.textContent = mensagens[clique];
+            }
+
+            // FADE IN E FADE OUT - ALTERADO
+            imagens.forEach(img => {
+                if (img) {
+                    img.classList.remove('mostrar');
+                    setTimeout(() => {
+                        img.style.display = 'none';
+                    }, 300);
+                }
+            });
+            
+            const indexImagem = (clique - 1) % 2;
+            if (imagens[indexImagem]) {
+                imagens[indexImagem].style.display = 'flex';
+                // Pequeno atraso para ativar o fade in
+                setTimeout(() => {
+                    imagens[indexImagem].classList.add('mostrar');
+                }, 10);
+                
+                // Toca o som
+                if (som) {
+                    som.currentTime = 0;
+                    som.play().catch(() => {});
+                }
+                
+                // Some aos poucos depois de 0.5 segundos
+                setTimeout(() => {
+                    imagens[indexImagem].classList.remove('mostrar');
+                    setTimeout(() => {
+                        imagens[indexImagem].style.display = 'none';
+                    }, 500);
+                }, 800);
+            }
         });
     </script>
 </body>
