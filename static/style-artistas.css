@@ -6,6 +6,22 @@ body {
     width: 100vw;
 }
 
+/* Animação de entrada para o título */
+.animacao-titulo {
+    animation: slideDown 0.8s ease-out;
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* Título no topo */
 .titulo-topo {
     position: fixed;
@@ -36,7 +52,19 @@ body {
     font-family: 'Courier New', monospace;
     letter-spacing: 7px;
     z-index: 100;
-    transition: transform 0.3s;
+    transition: transform 0.3s, color 0.3s;
+    animation: fadeInRight 0.8s ease-out 0.2s both;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px) translateY(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) translateY(-50%);
+    }
 }
 
 .next-page:hover {
@@ -53,19 +81,27 @@ body {
     overflow: visible;
 }
 
+/* Links dos polaroids */
+.polaroid-link {
+    position: absolute;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.polaroid-link:hover {
+    transform: scale(1.08);
+    filter: brightness(1.05);
+    z-index: 200;
+}
+
 /* Estilo base da polaroid */
 .polaroid {
-    position: absolute;
     background: #2ecc71;
     padding: 0;
     box-shadow: none;
     width: 254px;
-    transition: transform 0.3s;
-}
-
-.polaroid:hover {
-    transform: scale(1.05);
-    z-index: 200;
+    transition: all 0.3s ease;
 }
 
 .polaroid img {
@@ -80,6 +116,7 @@ body {
     top: 25%;
     left: 8%;
     transform: rotate(10deg);
+    animation: fadeInUp 0.6s ease-out 0.1s both;
 }
 
 /* Polaroid 2 - The Cure */
@@ -87,6 +124,7 @@ body {
     top: 20%;
     left: 40%;
     transform: rotate(-5deg);
+    animation: fadeInUp 0.6s ease-out 0.3s both;
 }
 
 /* Polaroid 3 - Radiohead */
@@ -94,6 +132,7 @@ body {
     top: 60%;
     left: 24%;
     transform: rotate(3deg);
+    animation: fadeInUp 0.6s ease-out 0.5s both;
 }
 
 /* Polaroid 4 - Skylab */
@@ -101,6 +140,7 @@ body {
     top: 60%;
     right: 28%;
     transform: rotate(-8deg);
+    animation: fadeInUp 0.6s ease-out 0.7s both;
 }
 
 /* Polaroid 5 - Weezer */
@@ -108,6 +148,39 @@ body {
     top: 20%;
     right: 15%;
     transform: rotate(-37deg);
+    animation: fadeInUp 0.6s ease-out 0.9s both;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(var(--rotate, 0deg));
+    }
+}
+
+/* Ajuste manual das rotações na animação */
+.polaroid-1 {
+    --rotate: 10deg;
+}
+
+.polaroid-2 {
+    --rotate: -5deg;
+}
+
+.polaroid-3 {
+    --rotate: 3deg;
+}
+
+.polaroid-4 {
+    --rotate: -8deg;
+}
+
+.polaroid-5 {
+    --rotate: -37deg;
 }
 
 /* Detalhes */
@@ -116,23 +189,39 @@ body {
     z-index: 60;
     width: auto;
     height: auto;
+    animation: fadeInScale 0.5s ease-out;
 }
 
-/* EstrelasCaneta - abaixo do polaroid 1 */
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* EstrelasCaneta */
 .estrelas-caneta {
     top: 45%;
     left: -10%;
     width: 35%;
     height: auto;
     transform: rotate(30deg);
+    animation-delay: 0.4s;
+    animation-fill-mode: both;
 }
 
-/* EstrelasCyberpunk - lado direito do polaroid 1 */
+/* EstrelasCyberpunk */
 .estrelas-cyberpunk {
     top: 1%;
     left: 20%;
     width: 25%;
     height: auto;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
 }
 
 /* Music - direita do polaroid 3 */
@@ -141,6 +230,8 @@ body {
     right: 28%;
     width: 25%;
     height: auto;
+    animation-delay: 0.6s;
+    animation-fill-mode: both;
 }
 
 /* Music - abaixo do polaroid 5 */
@@ -149,4 +240,6 @@ body {
     right: 7%;
     width: 25%;
     height: auto;
+    animation-delay: 0.7s;
+    animation-fill-mode: both;
 }

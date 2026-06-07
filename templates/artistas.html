@@ -11,12 +11,24 @@
             background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
         }
     </style>
 </head>
 <body>
-    <!-- Título no topo -->
-    <div class="titulo-topo">
+    <!-- Título no topo com animação -->
+    <div class="titulo-topo animacao-titulo">
         ⋆˚࿔ 𝕻𝖗𝖎𝖓𝖈𝖎𝖕𝖆𝖎𝖘 𝕬𝖗𝖙𝖎𝖘𝖙𝖆𝖘 𝕬𝖇𝖔𝖚𝖙 𝖚࿔˚⋆
     </div>
     
@@ -25,43 +37,53 @@
         𝕹𝖊𝖝𝖙 𝕻𝖆𝖌𝖊
     </a>
     
-    <!-- Polaroids -->
+    <!-- Polaroids com links -->
     <div class="polaroids-container">
         <!-- Polaroid 1: The Smiths -->
-        <div class="polaroid polaroid-1">
-            <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidTheSmiths.png') }}" alt="The Smiths">
-        </div>
+        <a href="https://open.spotify.com/artist/3yY2gUcIsjMr8hjo51PoJ8" target="_blank" class="polaroid-link polaroid-1">
+            <div class="polaroid">
+                <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidTheSmiths.png') }}" alt="The Smiths">
+            </div>
+        </a>
         
-        <!-- Detalhe: EstrelasCaneta (abaixo do polaroid 1) -->
+        <!-- Detalhe: EstrelasCaneta -->
         <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/EstrelasCaneta.png') }}" class="detalhe estrelas-caneta">
         
-        <!-- Detalhe: EstrelasCyberpunk (lado direito do polaroid 1) -->
+        <!-- Detalhe: EstrelasCyberpunk -->
         <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/EstrelasCyberpunk.png') }}" class="detalhe estrelas-cyberpunk">
         
         <!-- Polaroid 2: The Cure -->
-        <div class="polaroid polaroid-2">
-            <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidTheCure.png') }}" alt="The Cure">
-        </div>
+        <a href="https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s" target="_blank" class="polaroid-link polaroid-2">
+            <div class="polaroid">
+                <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidTheCure.png') }}" alt="The Cure">
+            </div>
+        </a>
         
         <!-- Polaroid 3: Radiohead -->
-        <div class="polaroid polaroid-3">
-            <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidRadioHead.png') }}" alt="Radiohead">
-        </div>
+        <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank" class="polaroid-link polaroid-3">
+            <div class="polaroid">
+                <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidRadioHead.png') }}" alt="Radiohead">
+            </div>
+        </a>
         
-        <!-- Detalhe: Music (direita do polaroid 3) -->
+        <!-- Detalhe: Music -->
         <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/Music.png') }}" class="detalhe music-direita">
         
         <!-- Polaroid 4: Skylab -->
-        <div class="polaroid polaroid-4">
-            <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidSkylab.png') }}" alt="Skylab">
-        </div>
+        <a href="https://open.spotify.com/intl-pt/artist/7nz8OOo3qPb9jvUp4WiTe8?si=4191022840c748a1" target="_blank" class="polaroid-link polaroid-4">
+            <div class="polaroid">
+                <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidSkylab.png') }}" alt="Skylab">
+            </div>
+        </a>
         
         <!-- Polaroid 5: Weezer -->
-        <div class="polaroid polaroid-5">
-            <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidWeezer.png') }}" alt="Weezer">
-        </div>
+        <a href="https://open.spotify.com/artist/3jOstUTkEu2JkjvRdBA5Gu" target="_blank" class="polaroid-link polaroid-5">
+            <div class="polaroid">
+                <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidWeezer.png') }}" alt="Weezer">
+            </div>
+        </a>
         
-        <!-- Detalhe: Music (abaixo do polaroid 5) -->
+        <!-- Detalhe: Music -->
         <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/Music.png') }}" class="detalhe music-abaixo">
     </div>
 </body>
