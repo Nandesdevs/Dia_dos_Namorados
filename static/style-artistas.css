@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Título no topo */
+.titulo-topo {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #00ff0a;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+    z-index: 100;
+}
+
+/* Botão Next Page vertical na direita */
+.next-page {
+    position: fixed;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 70px;
+    font-weight: bold;
+    color: #00ff0a;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 7px;
+    z-index: 100;
+    transition: transform 0.3s;
+}
+
+.next-page:hover {
+    transform: translateY(-50%) scale(1.1);
+    color: #ffffff;
+}
+
+/* Container das polaroids */
+.polaroids-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 50;
+    overflow: visible;
+}
+
+/* Estilo base da polaroid */
+.polaroid {
+    position: absolute;
+    background: #2ecc71;
+    padding: 0;
+    box-shadow: none;
+    width: 254px;
+    transition: transform 0.3s;
+}
+
+.polaroid:hover {
+    transform: scale(1.05);
+    z-index: 200;
+}
+
+.polaroid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* Polaroid 1 - The Smiths */
+.polaroid-1 {
+    top: 25%;
+    left: 8%;
+    transform: rotate(10deg);
+}
+
+/* Polaroid 2 - The Cure */
+.polaroid-2 {
+    top: 20%;
+    left: 40%;
+    transform: rotate(-5deg);
+}
+
+/* Polaroid 3 - Radiohead */
+.polaroid-3 {
+    top: 60%;
+    left: 24%;
+    transform: rotate(3deg);
+}
+
+/* Polaroid 4 - Skylab */
+.polaroid-4 {
+    top: 60%;
+    right: 28%;
+    transform: rotate(-8deg);
+}
+
+/* Polaroid 5 - Weezer */
+.polaroid-5 {
+    top: 20%;
+    right: 15%;
+    transform: rotate(-37deg);
+}
+
+/* Detalhes */
+.detalhe {
+    position: absolute;
+    z-index: 60;
+    width: auto;
+    height: auto;
+}
+
+/* EstrelasCaneta - abaixo do polaroid 1 */
+.estrelas-caneta {
+    top: 45%;
+    left: -10%;
+    width: 35%;
+    height: auto;
+    transform: rotate(30deg);
+}
+
+/* EstrelasCyberpunk - lado direito do polaroid 1 */
+.estrelas-cyberpunk {
+    top: 1%;
+    left: 20%;
+    width: 25%;
+    height: auto;
+}
+
+/* Music - direita do polaroid 3 */
+.music-direita {
+    top: 12%;
+    right: 28%;
+    width: 25%;
+    height: auto;
+}
+
+/* Music - abaixo do polaroid 5 */
+.music-abaixo {
+    top: 54%;
+    right: 7%;
+    width: 25%;
+    height: auto;
+}

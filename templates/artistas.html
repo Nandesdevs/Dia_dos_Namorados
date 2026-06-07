@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principais Artistas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style-artistas.css') }}">
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='imagens_site_artistas/Layout_Site.png') }}");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Título no topo -->
+    <div class="titulo-topo">
+        ⋆˚࿔ 𝕻𝖗𝖎𝖓𝖈𝖎𝖕𝖆𝖎𝖘 𝕬𝖗𝖙𝖎𝖘𝖙𝖆𝖘 𝕬𝖇𝖔𝖚𝖙 𝖚࿔˚⋆
+    </div>
+    
+    <!-- Botão Next Page vertical -->
+    <a href="/" class="next-page">
+        𝕹𝖊𝖝𝖙 𝕻𝖆𝖌𝖊
+    </a>
+    
+    <!-- Polaroids -->
+    <div class="polaroids-container">
+        <!-- Polaroid 1: The Smiths -->
+        <div class="polaroid polaroid-1">
+            <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidTheSmiths.png') }}" alt="The Smiths">
+        </div>
+        
+        <!-- Detalhe: EstrelasCaneta (abaixo do polaroid 1) -->
+        <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/EstrelasCaneta.png') }}" class="detalhe estrelas-caneta">
+        
+        <!-- Detalhe: EstrelasCyberpunk (lado direito do polaroid 1) -->
+        <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/EstrelasCyberpunk.png') }}" class="detalhe estrelas-cyberpunk">
+        
+        <!-- Polaroid 2: The Cure -->
+        <div class="polaroid polaroid-2">
+            <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidTheCure.png') }}" alt="The Cure">
+        </div>
+        
+        <!-- Polaroid 3: Radiohead -->
+        <div class="polaroid polaroid-3">
+            <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidRadioHead.png') }}" alt="Radiohead">
+        </div>
+        
+        <!-- Detalhe: Music (direita do polaroid 3) -->
+        <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/Music.png') }}" class="detalhe music-direita">
+        
+        <!-- Polaroid 4: Skylab -->
+        <div class="polaroid polaroid-4">
+            <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidSkylab.png') }}" alt="Skylab">
+        </div>
+        
+        <!-- Polaroid 5: Weezer -->
+        <div class="polaroid polaroid-5">
+            <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/PolaroidWeezer.png') }}" alt="Weezer">
+        </div>
+        
+        <!-- Detalhe: Music (abaixo do polaroid 5) -->
+        <img src="{{ url_for('static', filename='imagens_site_artistas/polaroids/Music.png') }}" class="detalhe music-abaixo">
+    </div>
+</body>
+</html>
