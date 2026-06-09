@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicas • Dia dos Namorados</title>
+    <meta name="description" content="{{ tracks|length }} músicas especiais em polaroids — uma playlist feita com amor.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style-musicas.css') }}">
+</head>
+<body>
+
+    <!-- Faixa preta com título gótico -->
+    <div class="banner-topo">
+        <h1>⋆˚ Músicas/Álbuns/Artistas About u ˚⋆</h1>
+    </div>
+
+    <!-- Botão de voltar lateral -->
+    <a href="/artistas" class="btn-voltar">𝕻𝖗𝖊𝖛𝖎𝖔𝖚𝖘 𝕻𝖆𝖌𝖊</a>
+
+    <!-- Contador flutuante -->
+    <div class="contador" id="contador">0 / {{ tracks|length }}</div>
+
+    <!-- Mural de polaroids -->
+    <div class="mural" id="mural">
+        {% for track in tracks %}
+        <div
+            class="polaroid-wrap"
+            style="--rot: {{ (loop.index0 * 137 % 21) - 10 }}deg;"
+            data-index="{{ loop.index0 }}"
+        >
+            <div class="polaroid-card">
+                {% if track.cover %}
+                    <img
+                        src="{{ track.cover }}"
+                        alt="{{ track.name }}"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                {% else %}
+                    <div class="sem-capa">🎵</div>
+                {% endif %}
+                <div class="polaroid-legenda">
+                    <div class="nome-musica">{{ track.name }}</div>
+                    <div class="nome-artista">{{ track.artist }}</div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script>
+        // ── Intersection Observer: fade-in no scroll ──
+        const polaroids = document.querySelectorAll('.polaroid-wrap');
+        const contador = document.getElementById('contador');
+        const total = polaroids.length;
+        let visiveis = 0;
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Atraso escalonado baseado na posição
+                    const idx = parseInt(entry.target.dataset.index);
+                    const delay = (idx % 8) * 55; // 0-385ms de atraso em ondas
+                    setTimeout(() => {
+                        entry.target.classList.add('visivel');
+                    }, delay);
+                    visiveis++;
+                    contador.textContent = `${Math.min(visiveis, total)} / ${total}`;
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.08,
+            rootMargin: '0px 0px -30px 0px'
+        });
+
+        polaroids.forEach(p => observer.observe(p));
+
+        // Dispara para os polaroids já visíveis na carga inicial
+        window.addEventListener('load', () => {
+            polaroids.forEach(p => {
+                const rect = p.getBoundingClientRect();
+                if (rect.top < window.innerHeight) {
+                    const idx = parseInt(p.dataset.index);
+                    setTimeout(() => {
+                        p.classList.add('visivel');
+                    }, idx * 40);
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

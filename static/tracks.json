@@ -1,0 +1,902 @@
+[
+  {
+    "name": "Swing Lynn",
+    "artist": "Harmless",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735713e82880ef7c842a8f104e"
+  },
+  {
+    "name": "Lovetripper",
+    "artist": "Cuco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27365d444a19f72771cba82cb00"
+  },
+  {
+    "name": "Lo Que Siento",
+    "artist": "Cuco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738a8cdf8e2a8329c26dca4790"
+  },
+  {
+    "name": "Do Better",
+    "artist": "Cuco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27365d444a19f72771cba82cb00"
+  },
+  {
+    "name": "Lover Is a Day",
+    "artist": "Cuco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b1c091e32aad5310ebbdd558"
+  },
+  {
+    "name": "Cupid's Quiver",
+    "artist": "Cuco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b1c091e32aad5310ebbdd558"
+  },
+  {
+    "name": "Amor de Siempre",
+    "artist": "Cuco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b1c091e32aad5310ebbdd558"
+  },
+  {
+    "name": "Dream Girl",
+    "artist": "Crisaunt",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ae50d9c4aa7a4dbb407a6548"
+  },
+  {
+    "name": "Pretty Girl",
+    "artist": "Clairo",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273efe812ae54f0698a32ccae14"
+  },
+  {
+    "name": "Hey Lover",
+    "artist": "The Daughters Of Eve",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ba90783c3d2fd37e44058b51"
+  },
+  {
+    "name": "C U Girl",
+    "artist": "Steve Lacy",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273447d52024a6ac588ad418ae5"
+  },
+  {
+    "name": "Infrunami",
+    "artist": "Steve Lacy",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c3545bbe806b845c2b52bc20"
+  },
+  {
+    "name": "Garbage Truck",
+    "artist": "Sex Bob-Omb",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f367e2e131d38ebde98a3f46"
+  },
+  {
+    "name": "Lovers Rock",
+    "artist": "TV Girl",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e1bc1af856b42dd7fdba9f84"
+  },
+  {
+    "name": "My Girlfriend",
+    "artist": "TV Girl",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ecf2eb70f21d2ef61680ab72"
+  },
+  {
+    "name": "Cigarettes out the Window",
+    "artist": "TV Girl",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd"
+  },
+  {
+    "name": "Blue Hair",
+    "artist": "TV Girl",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731556d166d0ed059b34a00e1b"
+  },
+  {
+    "name": "Amtrak",
+    "artist": "Los Retros",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ef589242b81411c7e574bc2e"
+  },
+  {
+    "name": "Lonely Day",
+    "artist": "System Of A Down",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f5e7b2e5adaa87430a3eccff"
+  },
+  {
+    "name": "My Kind of Woman",
+    "artist": "Mac DeMarco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739d377496c6bc8724b521222d"
+  },
+  {
+    "name": "A Heart Like Hers",
+    "artist": "Mac DeMarco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b395acedffa5fa8e7696aea2"
+  },
+  {
+    "name": "20191009 I Like Her",
+    "artist": "Mac DeMarco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27340461e96808378ae2787a7e4"
+  },
+  {
+    "name": "One More Love Song",
+    "artist": "Mac DeMarco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736bc9613f42a2aa5cf171308f"
+  },
+  {
+    "name": "Treat Her Better",
+    "artist": "Mac DeMarco",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9"
+  },
+  {
+    "name": "Remember You - Original Version",
+    "artist": "Dominurmom",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f1b2ce75857545ecf178f245"
+  },
+  {
+    "name": "Symphonia IX",
+    "artist": "Current Joys",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273aa34e56c440a5e8790b524c3"
+  },
+  {
+    "name": "Blondie",
+    "artist": "Current Joys",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e341c520c154f89b77bd2aaf"
+  },
+  {
+    "name": "Lil Peep (Tribute)",
+    "artist": "Lonely Playboy",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736730cba49fdd0c12e9269617"
+  },
+  {
+    "name": "Just the Two of Us",
+    "artist": "Grover Washington\\, Jr., Bill Withers",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d8e0e065037b496212e554b7"
+  },
+  {
+    "name": "Drain You",
+    "artist": "Nirvana",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf"
+  },
+  {
+    "name": "For Lovers",
+    "artist": "Lamp",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27358ebd661a51fcf2968db3ea1"
+  },
+  {
+    "name": "Lovesong - Remastered",
+    "artist": "The Cure",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c6e47e1240c011b60691559c"
+  },
+  {
+    "name": "Friday I'm In Love",
+    "artist": "The Cure",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739c72b249fcaa04d074c1dfcd"
+  },
+  {
+    "name": "Pictures Of You - Remastered",
+    "artist": "The Cure",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273858ed9e2832801189187391a"
+  },
+  {
+    "name": "Disco",
+    "artist": "Surf Curse",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a7060ab3ca5dc05fc9552e66"
+  },
+  {
+    "name": "Put Your Head On My Shoulder (Remastered)",
+    "artist": "Paul Anka",
+    "cover": "https://i.scdn.co/image/eae289250c8c0db9820cb772a0d4aa24b60bd6ed"
+  },
+  {
+    "name": "And I Love Her - live",
+    "artist": "The Beatles Revival Band",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27328cc0b64d05bf392b52a46d3"
+  },
+  {
+    "name": "I Love You So",
+    "artist": "The Walters",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a9ab24f62c01f4bd4a08571e"
+  },
+  {
+    "name": "Japanese Denim",
+    "artist": "Daniel Caesar",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273617c314e94693fad9a26f798"
+  },
+  {
+    "name": "Superpowers",
+    "artist": "Daniel Caesar",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737c68face1dc58127f3a7b1cc"
+  },
+  {
+    "name": "You Are the Right One",
+    "artist": "Sports",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731192eb9f894b18f0de2682f1"
+  },
+  {
+    "name": "we fell in love in october",
+    "artist": "girl in red",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d6839051c4760457e1a60b2a"
+  },
+  {
+    "name": "Marlboro Nights",
+    "artist": "Lonely God",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731b3df511089901dd846744e2"
+  },
+  {
+    "name": "Always Forever",
+    "artist": "Cults",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b03096e45464122b278aef93"
+  },
+  {
+    "name": "End of Beginning",
+    "artist": "Djo",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273fddfffec51b4580acae727c1"
+  },
+  {
+    "name": "nuts (feat. Rainy Bear)",
+    "artist": "Lil Peep, rainy bear",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27357921453605fdd3eb16d085b"
+  },
+  {
+    "name": "Ramona",
+    "artist": "Beck",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735531667c9a5be4857cab244f"
+  },
+  {
+    "name": "Everybody's Gotta Learn Sometime",
+    "artist": "Beck",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732a4703f5dd454b52304663ff"
+  },
+  {
+    "name": "Teenage Dream",
+    "artist": "T. Rex",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f367e2e131d38ebde98a3f46"
+  },
+  {
+    "name": "Mrs Magic",
+    "artist": "Strawberry Guy",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736ad1cdd4785d829027fa61ba"
+  },
+  {
+    "name": "SLOW DANCING IN THE DARK",
+    "artist": "Joji",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27360ba1d6104d0475c7555a6b2"
+  },
+  {
+    "name": "Je te laisserai des mots",
+    "artist": "Patrick Watson",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273de9b0077d3f714ab2d7a88b2"
+  },
+  {
+    "name": "I Love You",
+    "artist": "Fontaines D.C.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27329b614dddf273fbf1ca44286"
+  },
+  {
+    "name": "We Belong Together",
+    "artist": "Ritchie Valens",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737723fdc89d8e25e65aa6730d"
+  },
+  {
+    "name": "Oh My Angel",
+    "artist": "Bertha Tillman",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273340c8532439d5413bd2484ec"
+  },
+  {
+    "name": "Forever - Single Version",
+    "artist": "The Little Dippers",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735ac908d1247d38d2dc0aaac0"
+  },
+  {
+    "name": "Why Do You Let Me Stay Here?",
+    "artist": "She & Him",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273097e70ea81de84651ff055e5"
+  },
+  {
+    "name": "Emotions",
+    "artist": "Brenda Lee",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f07aa5c8e8b6b285ada4a941"
+  },
+  {
+    "name": "Silver Soul",
+    "artist": "Beach House",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a9a2f4dbb6ce31157d2e4783"
+  },
+  {
+    "name": "pink bubblegum",
+    "artist": "lavi kou",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e1dc96e79131d5e897fbdc08"
+  },
+  {
+    "name": "Hopelessly Devoted To You - From “Grease”",
+    "artist": "Olivia Newton-John",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b68df485f3304211904548a8"
+  },
+  {
+    "name": "Lover, You Should've Come Over",
+    "artist": "Jeff Buckley",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273afc2d1d2c8703a10aeded0af"
+  },
+  {
+    "name": "Everybody Here Wants You",
+    "artist": "Jeff Buckley",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273488ec830a779ebab921a705c"
+  },
+  {
+    "name": "Forget Her",
+    "artist": "Jeff Buckley",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273afc2d1d2c8703a10aeded0af"
+  },
+  {
+    "name": "I Want You Back",
+    "artist": "The Jackson 5",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738e3ab2d3ef6d45d315b2ad61"
+  },
+  {
+    "name": "Come and Get Your Love - Single Version",
+    "artist": "Redbone",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27346814e1b44e54d806753801e"
+  },
+  {
+    "name": "Across The Sea",
+    "artist": "Weezer",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b34530ac4a80275e3ff2faab"
+  },
+  {
+    "name": "Every Breath You Take",
+    "artist": "The Police",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c8e97cafeb2acb85b21a777e"
+  },
+  {
+    "name": "Careless Whisper",
+    "artist": "George Michael",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f906759132a97030e837864c"
+  },
+  {
+    "name": "Those Years Are Over",
+    "artist": "The Sha La Das",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ff8a3a7c710a30f4ccf2add3"
+  },
+  {
+    "name": "Watermelon",
+    "artist": "John + Jane Q. Public",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27336b1b73f91b8b3a5d8243473"
+  },
+  {
+    "name": "Eyes Without A Face",
+    "artist": "Billy Idol",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ea07dca8b4ca808c1e5b17fb"
+  },
+  {
+    "name": "right here",
+    "artist": "Lil Peep, Horse Head",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27342ff04f75ba8fa031482ce51"
+  },
+  {
+    "name": "Tek It",
+    "artist": "Cafuné",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ecaf001a812bb1ecc6cc482d"
+  },
+  {
+    "name": "Made In Japan",
+    "artist": "Buck Owens",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731dacc2d56bb70c51f28ff745"
+  },
+  {
+    "name": "An Eater",
+    "artist": "Matt Martians",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cf2de4ae7357027d5ed33904"
+  },
+  {
+    "name": "Be Like a Woman",
+    "artist": "Chris Rainbow",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f96aee01fdb9a8d00db869c5"
+  },
+  {
+    "name": "Don't Let Me Down - Remastered 2009",
+    "artist": "The Beatles",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738d23bdb7c0a6c420f4ffa644"
+  },
+  {
+    "name": "Do You Want To Know A Secret - Remastered 2009",
+    "artist": "The Beatles",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273dbeec63ad914c973e75c24df"
+  },
+  {
+    "name": "Heaven Knows I'm Miserable Now - 2011 Remaster",
+    "artist": "The Smiths",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27304480d4422fe67d383386660"
+  },
+  {
+    "name": "Girl Afraid - 2011 Remaster",
+    "artist": "The Smiths",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27340daee72081df5b8fdc754af"
+  },
+  {
+    "name": "Asleep - 2011 Remaster",
+    "artist": "The Smiths",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c9b31b01e4d81f8289e49574"
+  },
+  {
+    "name": "There Is a Light That Never Goes Out - 2011 Remaster",
+    "artist": "The Smiths",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736236778a208a15eb71079601"
+  },
+  {
+    "name": "Head Over Heels",
+    "artist": "Tears For Fears",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a9fac36898dc1302b5f642b3"
+  },
+  {
+    "name": "Everybody Wants To Rule The World",
+    "artist": "Tears For Fears",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27322463d6939fec9e17b2a6235"
+  },
+  {
+    "name": "\"Heroes\" - 2017 Remaster",
+    "artist": "David Bowie",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273204f41d52743c6a9efd62985"
+  },
+  {
+    "name": "Lady Starlight - 2015 - Remaster",
+    "artist": "Scorpions",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ab9ec104e0f9c1e420e8bf89"
+  },
+  {
+    "name": "Still Loving You",
+    "artist": "Scorpions",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27307eccae072c2503fddfe790c"
+  },
+  {
+    "name": "Is This Love - 2018 Remaster",
+    "artist": "Whitesnake",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27349113b5921d7a53f49b64bfd"
+  },
+  {
+    "name": "Running Up That Hill (A Deal With God)",
+    "artist": "Kate Bush",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ad08f4b38efbff0c0da0f252"
+  },
+  {
+    "name": "Army Dreamers - 2018 Remaster",
+    "artist": "Kate Bush",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273de03c19a5b918e22a0f275d8"
+  },
+  {
+    "name": "Bohemian Rhapsody - Remastered 2011",
+    "artist": "Queen",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27349a7086a7d6ffa4079b45b0e"
+  },
+  {
+    "name": "Purple Rain",
+    "artist": "Prince",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738a2ce3f148f57584269c3782"
+  },
+  {
+    "name": "505",
+    "artist": "Arctic Monkeys",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface"
+  },
+  {
+    "name": "This I Love",
+    "artist": "Guns N' Roses",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e29a351729da4d29214e54e2"
+  },
+  {
+    "name": "Don't Cry (Original)",
+    "artist": "Guns N' Roses",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27315d11ba311f61577c5e18370"
+  },
+  {
+    "name": "Knockin' On Heaven's Door",
+    "artist": "Guns N' Roses",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27392d21aef6c0d288cc4c05973"
+  },
+  {
+    "name": "She Brings Me Love - 2009 Remaster",
+    "artist": "Bad Company",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273dbcbc3e778344e4d948c5fc6"
+  },
+  {
+    "name": "Please Please Please Let Me Get What I Want - 2005 Remaster",
+    "artist": "Deftones",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e8e8eda544f82d427b173d9d"
+  },
+  {
+    "name": "Sleep Walk",
+    "artist": "Deftones",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27358df6181041c38412db1b253"
+  },
+  {
+    "name": "Please, Please, Please, Let Me Get What I Want - 2011 Remaster",
+    "artist": "The Smiths",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27304480d4422fe67d383386660"
+  },
+  {
+    "name": "I Was Made For Lovin' You",
+    "artist": "KISS",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2734384b6976cadaec272114022"
+  },
+  {
+    "name": "Forever Tonight",
+    "artist": "Velvet After Demise",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c847dcd17569ef669b15cf94"
+  },
+  {
+    "name": "Caso Sério",
+    "artist": "Rita Lee, Roberto De Carvalho",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273902ff084de9c02ce5a090636"
+  },
+  {
+    "name": "Mania De Você",
+    "artist": "Rita Lee, Roberto De Carvalho",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273471646faaecf4b53e95b5c1c"
+  },
+  {
+    "name": "Como Tudo Deve Ser",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739ce3f2af269f08d61ac2ab9e"
+  },
+  {
+    "name": "Dona do Meu Pensamento",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f066003f5c78d52a42bb25b1"
+  },
+  {
+    "name": "Me Encontra",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f066003f5c78d52a42bb25b1"
+  },
+  {
+    "name": "Só Os Loucos Sabem",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f066003f5c78d52a42bb25b1"
+  },
+  {
+    "name": "I Feel So Good Today",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735e7cb9ed84348b98973c823f"
+  },
+  {
+    "name": "Cheia de Vida",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732ef73259916f5559222fc62a"
+  },
+  {
+    "name": "Meu Novo Mundo",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732ef73259916f5559222fc62a"
+  },
+  {
+    "name": "Do Jeito Que Eu Gosto, Do Jeito Que Eu Quero",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732ef73259916f5559222fc62a"
+  },
+  {
+    "name": "Vem Ser Minha",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732ef73259916f5559222fc62a"
+  },
+  {
+    "name": "A Mais Linda do Bar",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732ef73259916f5559222fc62a"
+  },
+  {
+    "name": "Uma Criança Com Seu Olhar",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273816a215aa4e115e57771bff9"
+  },
+  {
+    "name": "Tudo Que Ela Gosta De Escutar",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27302380a28bd7668480106d68b"
+  },
+  {
+    "name": "Gimme O Anel",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27302380a28bd7668480106d68b"
+  },
+  {
+    "name": "Proibida Pra Mim (Grazon)",
+    "artist": "Charlie Brown Jr.",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27302380a28bd7668480106d68b"
+  },
+  {
+    "name": "Oceano",
+    "artist": "Djavan",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27325b58a31f35a0878c3254a23"
+  },
+  {
+    "name": "Você Bem Sabe",
+    "artist": "Djavan",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27325b58a31f35a0878c3254a23"
+  },
+  {
+    "name": "Eu Te Devoro",
+    "artist": "Djavan",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f9a022f89a70b89e55c975bd"
+  },
+  {
+    "name": "Um Amor Puro",
+    "artist": "Djavan",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b47bcf1e1d7ed64ced71a45c"
+  },
+  {
+    "name": "Lilás",
+    "artist": "Djavan",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273bab3edc61086b9dec4a1bbe0"
+  },
+  {
+    "name": "Samurai (feat. Stevie Wonder)",
+    "artist": "Djavan, Stevie Wonder",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ff6dbdb76c0cce850eb706e3"
+  },
+  {
+    "name": "Meu",
+    "artist": "Djavan",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c1cc308be3f39f2b56ce3bb5"
+  },
+  {
+    "name": "Monalisa",
+    "artist": "Jorge Vercillo",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735c30009eba719b3d6be57676"
+  },
+  {
+    "name": "Final Feliz",
+    "artist": "Jorge Vercillo, Djavan",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27382323015aa85aa2e3b9968a5"
+  },
+  {
+    "name": "Boa Vida",
+    "artist": "Cazuza",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e662ee7aaed07bedec85e564"
+  },
+  {
+    "name": "Preciso Dizer Que Te Amo",
+    "artist": "Cazuza, Bebel Gilberto",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733e06d4cab51653934ee6c664"
+  },
+  {
+    "name": "Casinha de Sapê",
+    "artist": "Tim Maia",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273716e5f949fac987860945063"
+  },
+  {
+    "name": "Eu Amo Você",
+    "artist": "Tim Maia",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273052bd0ef86fa73c77263bfbe"
+  },
+  {
+    "name": "Azul Da Cor Do Mar",
+    "artist": "Tim Maia",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273052bd0ef86fa73c77263bfbe"
+  },
+  {
+    "name": "Garota de Ipanema",
+    "artist": "Tom Jobim",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273dbf19f504476a6d8fcacb604"
+  },
+  {
+    "name": "Eu Sei Que Vou Te Amar",
+    "artist": "Tom Jobim",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273dbf19f504476a6d8fcacb604"
+  },
+  {
+    "name": "Pela luz dos olhos teus",
+    "artist": "Tom Jobim, Miúcha",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27394d71d3dda47c53cf6d77b03"
+  },
+  {
+    "name": "Carinhoso",
+    "artist": "Marisa Monte, Paulinho Da Viola",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e5f9d12436a969f0d35a2bf3"
+  },
+  {
+    "name": "Eu Sei (Na Mira)",
+    "artist": "Marisa Monte",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273892f2051533befd8a3cad534"
+  },
+  {
+    "name": "Não Sei Dançar",
+    "artist": "Marina Lima",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730f9686786387fe33b29b83e6"
+  },
+  {
+    "name": "Sozinho - Ao Vivo",
+    "artist": "Caetano Veloso",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732374e6c8bada807a45cc4b00"
+  },
+  {
+    "name": "Eduardo E Mônica",
+    "artist": "Legião Urbana",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731eb5e996639036a49b09f1e5"
+  },
+  {
+    "name": "Eternamente",
+    "artist": "Gal Costa",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e23d92dee8de17a0680bb278"
+  },
+  {
+    "name": "Flor De Maracujá",
+    "artist": "Gal Costa",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a109c0cc2759660eae238c5d"
+  },
+  {
+    "name": "Nêga Olívia",
+    "artist": "Bebeto",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273981113f8abc1196d3d3edf86"
+  },
+  {
+    "name": "Para Viver um Grande Amor",
+    "artist": "Toquinho, Vinícius de Moraes",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c33d25b7e57924b384b79323"
+  },
+  {
+    "name": "Último Romance",
+    "artist": "Los Hermanos",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273376d029f01458b3e714603b1"
+  },
+  {
+    "name": "Casa Pré-Fabricada",
+    "artist": "Los Hermanos",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739a9b702689f4df55273ec029"
+  },
+  {
+    "name": "Pensando Em Você",
+    "artist": "Paulinho Moska",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27327614437121de76620941c5e"
+  },
+  {
+    "name": "Pode Vir Comigo",
+    "artist": "Phill Veras",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27376cfccfe4245ead9542e0fcc"
+  },
+  {
+    "name": "Me Chamando de Paixão",
+    "artist": "Jorge Ben Jor",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737e26fd74eaa79abd6182f21b"
+  },
+  {
+    "name": "Dumingaz",
+    "artist": "Jorge Ben Jor",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27303c0351a84e99103e2287b3f"
+  },
+  {
+    "name": "Por Causa De Você, Menina",
+    "artist": "Jorge Ben Jor",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732daa87c238a78a680511da3c"
+  },
+  {
+    "name": "Menina Bonita Não Chora",
+    "artist": "Jorge Ben Jor",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732daa87c238a78a680511da3c"
+  },
+  {
+    "name": "Anjo Azul",
+    "artist": "Jorge Ben Jor",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27383f1370def5015f7bd688755"
+  },
+  {
+    "name": "Cigana",
+    "artist": "Jorge Ben Jor, Trio Mocoto",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273580f1cb344a324fc6fcca42a"
+  },
+  {
+    "name": "Domingas",
+    "artist": "Jorge Ben Jor",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27328e2228486bd75ea9f330149"
+  },
+  {
+    "name": "Oba, Lá Vem Ela",
+    "artist": "Jorge Ben Jor, Trio Mocoto",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cfacf4141520fdf2aefd8c1c"
+  },
+  {
+    "name": "Amante Amado",
+    "artist": "Jorge Ben Jor",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f670793d7129b4f65a84a889"
+  },
+  {
+    "name": "Bom Dia, Boa Tarde, Boa Noite",
+    "artist": "Jorge Ben Jor",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f670793d7129b4f65a84a889"
+  },
+  {
+    "name": "Carolina - Ao Vivo",
+    "artist": "Seu Jorge",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf"
+  },
+  {
+    "name": "Menina Veneno",
+    "artist": "Ritchie",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732ba6662ea007ab29c1fa236f"
+  },
+  {
+    "name": "Toda cor",
+    "artist": "Titãs",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736dd8efd8b9bddbb39bc99ece"
+  },
+  {
+    "name": "Me Liga",
+    "artist": "Os Paralamas Do Sucesso",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736b419e9dbdac56e7844e3938"
+  },
+  {
+    "name": "Garota Nacional",
+    "artist": "Skank",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735361a9772b72b58e353a9dea"
+  },
+  {
+    "name": "Como eu quero",
+    "artist": "Kid Abelha e os Abóboras Selvagens",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d5de9c0529298a4408cc7c79"
+  },
+  {
+    "name": "Que Se Chama Amor",
+    "artist": "Só Pra Contrariar",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731ffe789c7e50586c27520216"
+  },
+  {
+    "name": "Amor Meu Grande Amor",
+    "artist": "Angela Ro Ro",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273cc9018510ea03599a37413f4"
+  },
+  {
+    "name": "Pelados Em Santos",
+    "artist": "Mamonas Assassinas",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27320d57bc5fd5bbe506cabc22c"
+  },
+  {
+    "name": "Caipirinha de Limão",
+    "artist": "Clube Dezenove",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ccda95780ea466d69bebc10d"
+  },
+  {
+    "name": "Delícia/Luxúria",
+    "artist": "Sophia Chablau e Uma Enorme Perda de Tempo",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e7783ded09bea80cb025ae07"
+  },
+  {
+    "name": "Doce Paixão",
+    "artist": "Raça Negra",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a603d19a882c2d25f827d7f7"
+  },
+  {
+    "name": "Cheia de Manias",
+    "artist": "Raça Negra",
+    "cover": ""
+  },
+  {
+    "name": "Ai Calica",
+    "artist": "pumapjl, LEALL, Babidi",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273a5e79f0bf60b29e571295cd7"
+  },
+  {
+    "name": "Terça de Tarde",
+    "artist": "Pedrosa",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273fcfbe269b11936ce0d380545"
+  },
+  {
+    "name": "Louvre",
+    "artist": "PRAGAS RARE, OG BRITTO, LEALL, Linin",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27323eb6a61ec010ad05961cf84"
+  },
+  {
+    "name": "#pensando",
+    "artist": "chard la plaga",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27305bdb2c5d94d1d72882ec307"
+  },
+  {
+    "name": "Mágica",
+    "artist": "Calcinha Preta",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2730feadb03b09b02564d643132"
+  },
+  {
+    "name": "Hoje à Noite",
+    "artist": "Calcinha Preta",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732c214376195b1bb3ab0871d7"
+  },
+  {
+    "name": "Jane!",
+    "artist": "The Long Faces",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2736685599bd4bafe725e532e2f"
+  },
+  {
+    "name": "Say Yes - Remastered 2017",
+    "artist": "Elliott Smith",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737ee74c830d57918bb235c7e9"
+  }
+]
