@@ -97,6 +97,43 @@ body {
     color: #ffffff;
 }
 
+/* ── Botão Next Page no topo canto direito ── */
+.btn-nextpage {
+    position: fixed;
+    top: -5px;
+    right: 30px;
+    writing-mode: horizontal-tb;
+    font-size: 70px;
+    font-weight: bold;
+    color: #00ff0a;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 7px;
+    z-index: 300;
+    transition: transform 0.3s, color 0.3s;
+    animation: fadeInDown 0.8s ease-out 0.2s both;
+    text-shadow:
+        0 0 10px rgba(0, 255, 10, 0.7),
+        0 0 30px rgba(0, 255, 10, 0.3);
+    user-select: none;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn-nextpage:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
 /* ── Mural de polaroids ── */
 .mural {
     padding: 40px 80px 80px 80px;

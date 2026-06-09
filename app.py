@@ -26,5 +26,9 @@ def musicas():
     tracks = get_tracks()
     return render_template('musicas.html', tracks=tracks)
 
+@app.route('/ultima')
+def ultima():
+    return render_template('ultima.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
