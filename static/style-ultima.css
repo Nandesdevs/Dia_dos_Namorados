@@ -136,12 +136,11 @@ body {
     z-index: 60;
 }
 
-/* Estilo base para todas as imagens */
+/* Estilo base para todas as imagens (sem largura fixa) */
 .imagens-container img {
     position: absolute;
     transition: transform 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1), filter 0.3s ease;
     animation: fadeInScale 0.6s cubic-bezier(0.2, 0.8, 0.4, 1) forwards;
-    width: 100px;
     height: auto;
     opacity: 0;
 }
@@ -168,43 +167,43 @@ body {
 }
 
 /* ============================================= */
-/* TODAS AS IMAGENS PRÉ-DEFINIDAS */
+/* TODAS AS IMAGENS COM TAMANHOS INDIVIDUAIS */
 /* ============================================= */
 
 .img-alanzoka {
-    top: 150px;
-    left: 50px;
-    width: 110px;
+    top: 70px;
+    left: 690px;
+    width: 390px;
 }
 
 .img-bengala {
-    top: 200px;
-    right: 80px;
-    width: 90px;
+    top: 390px;
+    left: 600px;
+    width: 300px;
 }
 
 .img-bobs {
-    top: 300px;
-    left: 100px;
-    width: 100px;
+    top: 70px;
+    left: 270px;
+    width: 390px;
 }
 
 .img-book {
-    top: 400px;
-    right: 150px;
-    width: 85px;
+    top: 300px;
+    left: 1%;
+    width: 200px;
 }
 
 .img-breatice {
-    top: 500px;
-    left: 80px;
-    width: 95px;
+    top: 700px;
+    right: 180px;
+    width: 330px;
 }
 
 .img-brecho {
-    top: 550px;
-    right: 200px;
-    width: 110px;
+    top: 520px;
+    left: 3%;
+    width: 210px;
     transition: transform 0.5s cubic-bezier(0.2, 0.9, 0.4, 1.1);
 }
 
@@ -213,104 +212,105 @@ body {
 }
 
 .img-caracol {
-    top: 180px;
-    left: 300px;
-    width: 80px;
+    top: 520px;
+    right: 26%;
+    width: 250px;
 }
 
 .img-cerveja {
-    top: 280px;
-    right: 300px;
-    width: 90px;
+    top: 70px;
+    left: 1%;
+    width: 250px;
 }
 
 .img-cinamoroll {
-    top: 380px;
-    left: 250px;
-    width: 100px;
+    top: 170px;
+    right: 23%;
+    width: 140px;
 }
 
 .img-cinto_sonic {
-    top: 480px;
-    right: 100px;
-    width: 95px;
+    top: 710px;
+    left: 0%;
+    width: 500px;
 }
 
 .img-cruz {
-    top: 580px;
-    left: 150px;
-    width: 70px;
+    top: 820px;
+    left: 38%;
+    width: 180px;
 }
 
 .img-espiral {
-    top: 120px;
-    right: 250px;
+    top: 700px;
+    left: 500px;
     width: 80px;
 }
 
 .img-garfield {
-    top: 220px;
-    left: 500px;
-    width: 120px;
+    top: 80px;
+    right: -3%;
+    width: 300px;
 }
 
 .img-gargantilha {
-    top: 320px;
-    right: 400px;
-    width: 75px;
+    top: 500px;
+    left: 45%;
+    width: 240px;
 }
 
 .img-genshin {
-    top: 420px;
-    left: 400px;
-    width: 100px;
+    top: 740px;
+    right: 450px;
+    width: 270px;
 }
 
 .img-hamtaro {
-    top: 520px;
-    right: 350px;
-    width: 90px;
+    top: 680px;
+    left: 20%;
+    width: 450px;
 }
 
 .img-hotdog {
-    top: 100px;
-    left: 700px;
+    top: 700px;
+    left: 300px;
     width: 95px;
 }
 
 .img-jojo {
-    top: 200px;
-    right: 550px;
-    width: 105px;
+    top: 300px;
+    left: 720px;
+    width: 130px;
 }
 
 .img-kuromi_batz {
-    top: 300px;
-    left: 600px;
-    width: 85px;
+    top: 320px;
+    right: 580px;
+    width: 230px;
 }
 
 .img-lillychouchou {
-    top: 400px;
-    right: 500px;
-    width: 95px;
+    top: 590px;
+    left: 12%;
+    width: 300px;
 }
 
 .img-mel_leite {
-    top: 500px;
-    left: 550px;
-    width: 90px;
+    top: 100px;
+    right: 32%;
+    width: 180px;
+    transform: rotate(-18deg);
     transition: transform 0.5s cubic-bezier(0.2, 0.9, 0.4, 1.1);
 }
 
 .img-mel_leite:hover {
-    transform: rotate(-15deg) scale(1.08);
+    transform: rotate(-18deg) scale(1.08);
 }
 
 .img-nana {
-    top: 130px;
-    right: 700px;
-    width: 100px;
+    top: 400px;
+    right: -7%;
+    width: 400px;
     transition: transform 0.5s cubic-bezier(0.2, 0.9, 0.4, 1.1);
 }
 
@@ -319,86 +319,99 @@ body {
 }
 
 .img-nath {
-    top: 600px;
-    left: 350px;
-    width: 100px;
+    top: 300px;
+    left: 230px;
+    width: 250px;
 }
 
 .img-nordestina {
-    top: 650px;
-    right: 450px;
-    width: 95px;
+    top: 380px;
+    right: 13%;
+    width: 350px;
 }
 
 .img-pablo {
-    top: 350px;
-    left: 800px;
-    width: 90px;
+    top: 270px;
+    left: 440px;
+    width: 240px;
 }
 
 .img-parque {
-    top: 450px;
-    right: 650px;
-    width: 110px;
-    transition: transform 0.5s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    bottom: 20px !important;
+    right: -2% !important;
+    width: 250px !important;
+    transform: rotate(19deg) !important;
+    transition: all 0.5s cubic-bezier(0.2, 0.9, 0.4, 1.1);
 }
 
 .img-parque:hover {
-    transform: rotate(20deg) scale(1.08);
+    transform: rotate(19deg) scale(1.08) !important;
 }
 
 .img-pedrinhas {
-    top: 550px;
-    left: 700px;
-    width: 80px;
+    top: 420px;
+    left: 13%;
+    width: 240px;
 }
 
 .img-presilha_de_cigarro {
-    top: 100px;
-    right: 850px;
-    width: 85px;
+    top: 220px;
+    right: 18%;
+    width: 250px;
 }
 
 .img-puck {
-    top: 250px;
-    left: 900px;
-    width: 90px;
+    top: 450px;
+    right: 150px;
+    width: 230px;
 }
 
 .img-punpun {
-    top: 450px;
-    right: 800px;
-    width: 95px;
+    top: 80px;
+    right: 10%;
+    width: 280px;
 }
 
 .img-radiohead {
-    top: 180px;
-    left: 1050px;
-    width: 100px;
+    top: 500px;
+    left: 22%;
+    width: 300px;
 }
 
 .img-saae {
-    top: 380px;
-    right: 950px;
-    width: 85px;
+    top: 630px;
+    left: 37%;
+    width: 240px;
 }
 
 .img-smiths {
-    top: 550px;
-    left: 950px;
-    width: 100px;
+    top: 300px;
+    right: -3%;
+    width: 250px;
 }
 
 .img-sun_moon {
-    top: 650px;
+    top: 300px;
+    left: 820px;
+    width: 300px;
+}
+
+.img-teatro {
+    top: 740px;
     right: 750px;
-    width: 90px;
+    width: 200px;
+    transform: rotate(20deg) !important;
+    transition: transform 0.5s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+}
+
+.img-teatro:hover {
+    transform: rotate(20deg) scale(1.08) !important;
 }
 
 .img-vinho {
-    top: 120px;
-    left: 1200px;
-    width: 90px;
+    top: 540px;
+    right: 680px;
+    width: 180px;
 }
 
 /* Atrasos de animação suaves */
@@ -422,7 +435,7 @@ body {
 .img-jojo { animation-delay: 0.9s; }
 .img-kuromi_batz { animation-delay: 0.95s; }
 .img-lillychouchou { animation-delay: 1s; }
-.img-mal_leite { animation-delay: 1.05s; }
+.img-mel_leite { animation-delay: 1.05s; }
 .img-nana { animation-delay: 1.1s; }
 .img-nath { animation-delay: 1.15s; }
 .img-nordestina { animation-delay: 1.2s; }
@@ -436,4 +449,5 @@ body {
 .img-saae { animation-delay: 1.6s; }
 .img-smiths { animation-delay: 1.65s; }
 .img-sun_moon { animation-delay: 1.7s; }
-.img-vinho { animation-delay: 1.75s; }
+.img-teatro { animation-delay: 1.75s; }
+.img-vinho { animation-delay: 1.8s; }
